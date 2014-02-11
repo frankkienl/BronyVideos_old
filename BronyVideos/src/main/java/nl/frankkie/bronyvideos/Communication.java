@@ -51,6 +51,7 @@ public class Communication {
                 JSONObject json = new JSONObject(response);
                 return json;
             } catch (Exception e) {
+                e.printStackTrace();
             }
             return null;
         }
